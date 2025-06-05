@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  .rigth_image {
+    flex: 0.5;
+    height: 99.6vh;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .form {
+    flex: 0.5;
+  }
+}
